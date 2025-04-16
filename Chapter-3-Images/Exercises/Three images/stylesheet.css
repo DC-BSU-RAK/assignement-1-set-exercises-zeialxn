@@ -1,0 +1,43 @@
+/* changes the bg color of the body */
+body {
+    background-color: rgb(2 52 63);
+}
+
+.header {
+    color: rgb(240 237 204);
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* edits only the image 1 */
+.image-1 {
+    display: block;
+    margin: 0 auto 90px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    filter: blur(3px) sepia(80%) brightness(170%) contrast(120%) saturate(50%) drop-shadow(10px 10px 10px black);
+}
+
+/* edits only the image 2 */
+.image-2 {
+    display: block;
+    margin: 0 auto 90px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    filter: grayscale(100%)  drop-shadow(10px 10px 10px black);
+}
+
+/* edits only the image 3 */
+.image-3 {
+    display: block;
+    margin: 0 auto 90px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    filter: invert(100%) opacity(80%) drop-shadow(10px 10px 10px black);
+}
+
+/* edits all three images together */
+.all-images {
+    text-align: center;
+}

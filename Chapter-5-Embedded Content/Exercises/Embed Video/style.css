@@ -1,0 +1,21 @@
+/* edits the h1 tag in main-heading class */
+.main-heading h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 80px;
+    color: rgb(188, 11, 11);
+    margin: 30px;
+    margin-top: 50px;
+}
+
+/* edits the media */
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* shadow around the image and video */
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.805));
+}
+

@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1F3039;
+    color: #E5E7EC;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth; /* for smooth scrolling */
+}
+
+.main-header h1 {
+    font-family: 'Corinthia', cursive;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #5185A6; 
+    margin: 0px 0;
+}
+
+/* fixed navigation bar at top with hover effects */
+.navigation {
+    background-color: #214156;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 18px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navigation a {
+    color: #A9C5DB;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* hover effect */
+.navigation a:hover {
+    background-color: #5185A6;
+    color: #E5E7EC;
+}
+
+section {
+    color: #A9C5DB;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* scroll-margin-top to account for the fixed navbar */
+section {
+    scroll-margin-top: 120px;
+}
+
+button {
+    background-color: #5185A6;
+    color: #E5E7EC;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+/* hover effect */
+button:hover {
+    background-color: #A9C5DB;
+    color: #1F3039;
+}
+
+a {
+    color: #A9C5DB;
+}
+
+a:hover {
+    color: #E5E7EC;
+}
+
+.text {
+    text-align: justify;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.link {
+    text-align: center;
+    margin-top: 50px;
+}
